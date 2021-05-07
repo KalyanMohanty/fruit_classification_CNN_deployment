@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
-from keras.preprocessing.image import ImageDataGenerator
 import numpy as np
 import os
 
