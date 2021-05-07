@@ -38,5 +38,8 @@ def upload_file():
 		val = finds()
 		return render_template('pred.html', ss = val)
 
+@app.route('/plots')
+def plots():
+	return render_template('plots.html')
 if __name__ == '__main__':
-	app.run()
+	app.run(debug= True)
