@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 from keras.preprocessing.image import ImageDataGenerator
-import tensorflow as tf
 import numpy as np
 import os
 
